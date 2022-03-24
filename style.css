@@ -1,0 +1,133 @@
+
+body {
+    color: #D5D5D5;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #4B6587;
+    color: #D1D1D1;
+    align-items: center;
+    
+}
+.brand {
+  height: 80px;
+}
+.logo {
+    width: 120px;
+    height: 120px;
+    padding-top: 4px;
+}
+.nav-links {
+    display: flex;
+}
+.nav-link {
+    padding: 0 30px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #D1D1D1;
+  }
+a:hover {
+    color: #EEEEEE;
+}
+
+/* Introduction */
+.intro {
+    width: 58%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.nameAndWork {
+    width: 250px;
+}
+.name {
+    font-size: 50px;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.work {
+    color: #FFC069;
+    text-align: center;
+}
+.intro-text {
+    margin-top: 70px;
+    margin-left: 10px;
+    line-height: 25px;
+}
+
+/* Divider */
+hr {
+    border-style: dotted none none;
+    border-color: #FFC069;
+    border-width: 5px;
+    width: 2%;
+}
+
+/* Pictures */
+#pictures {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    width: 80%;
+    justify-content: space-evenly;
+}
+.pic {
+    box-shadow: 5px 5px 6px #444444;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.stains {
+    width: 200px;
+}
+.molar {
+    width: 200px;
+}
+.molar2 {
+    width: 200px;
+}
+
+/* Definitions and Contacts */
+
+.contacts {
+    width: 58%;
+    margin: auto;
+    padding: 30px 0;
+}
+.contact-text {
+    color: #FFC069;
+    width: 250px;
+    height: 100,364px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.bottom {
+    margin-top: 15px;
+}
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.logos {
+    width: 40px;
+    height: 40px;
+    padding: 0 45px;
+}
